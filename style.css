@@ -1,14 +1,14 @@
 :root {
   --branding-color: #6c63ff;
-  --secondary-color: rgb(255, 250, 250);
+  --secondary-color: #f9f7fe;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
 
 .hero {
   text-align: center;
-  background: #f9f7fe;
-  padding: 160px 20px;
+  background: var(--secondary-color);
+  padding: 80px 20px;
 }
 
 h1,
@@ -52,7 +52,7 @@ h4 {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 .content-container h1 {
   font-size: 64px;
@@ -193,4 +193,3 @@ footer .social-links a:hover {
     text-align: center;
     padding: 0;
   }
-
